@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Journal Project</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <img>
+            <h2>Daily Journal</h2>
+        </header>
+        <section class="journal-form">
+            <form action="">
+                <!-- This selects the date -->
+                <fieldset>
+                    <label for="journalDate">Date of Journal Entry</label>
+                    <input type="date" name="journalDate" id="journalDate" class="field">
+                </fieldset>
+                <!-- This creates a textfield that you can write in -->
+                <fieldset>Concepts Covered
+                    <textarea class="field"></textarea>
+                </fieldset>
+                <!-- This creates another text field meant for blogging -->
+                <fieldset>Journal Entry
+                    <textarea class="field"></textarea>
+                </fieldset>
+                <!-- The select attribute creates a drop down selection box -->
+                <fieldset>
+                    <label for="moods">Mood Today</label>
+                    <select name="moods" id="moods" class="field">
+                        <option value="Happy">Happy</option>
+                        <option value="Sad">Sad</option>
+                        <option value="Grateful">Grateful</option>
+                        <option value="Frustrated">Frustrated</option>
+                    </select>
+                </fieldset>
+                <button type="button"> Record Journal Entry </button>
+            </form>
+        </section>
+        <footer>
+            Jon Brooks
+            Github
+            Copyright
+        </footer>
+    </main>
+</body>
+
+</html>
